@@ -1,0 +1,26 @@
+{
+  "name": "tm-tree-view",
+  "displayName": "TaskMaster — Tree View",
+  "publisher": "alexrk",
+  "version": "0.0.1",
+  "description": "VS Code Webview that renders TaskMaster tasks.json with live updates.",
+  "engines": { "vscode": "^1.90.0" },
+  "categories": ["Other"],
+  "activationEvents": ["onCommand:tmTree.open"],
+  "contributes": {
+    "commands": [
+      { "command": "tmTree.open", "title": "TaskMaster: Open Tree View" }
+    ]
+  },
+  "main": "./out/extension.js",
+  "scripts": {
+    "compile": "tsc -p .",
+    "watch": "tsc -p . -w",
+    "vscode:prepublish": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.5.4"
+  }
+}
