@@ -2,8 +2,15 @@
   "name": "tm-tree-view",
   "displayName": "TaskMaster — Tree View",
   "publisher": "alexrk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "VS Code Webview that renders TaskMaster tasks.json with live updates.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aramirez087/taskmaster-treeview"
+  },
+  "bugs": {
+    "url": "https://github.com/aramirez087/taskmaster-treeview/issues"
+  },
   "engines": {
     "vscode": "^1.90.0"
   },
